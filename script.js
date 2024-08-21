@@ -7,7 +7,7 @@ but.addEventListener("click", function () {
     if (value == 0) {
         stat.innerHTML = "Friend";
         stat.style.color = "green";
-        stat.style.left = "46.2%"
+        stat.style.left = "36%"
         but.innerHTML = "Remove"
         but.style.color = "red";
         value = 1;
@@ -15,7 +15,7 @@ but.addEventListener("click", function () {
     } else if(value == 1){
         stat.innerHTML = "Stranger";
         stat.style.color = "rgb(76, 0, 0)";
-        stat.style.left = "45.2%"
+        stat.style.left = "33%"
         but.innerHTML = "Add Friend"
         but.style.color = "green";
         value = 0;
